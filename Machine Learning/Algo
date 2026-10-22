@@ -1,0 +1,88 @@
+Machine Learning Lab — Algorithms
+
+Experiment 1: Linear Regression using Gradient Descent and Normal Equation
+
+1. Start.
+2. Load the California Housing dataset.
+3. Select AveRooms as input and house price as target.
+4. Split the dataset into training and testing sets.
+5. Apply Standard Scaling to the input features.
+6. Initialize weight, bias, learning rate and epochs.
+7. Perform Gradient Descent by calculating predictions, cost and gradients, then update weight and bias.
+8. Evaluate the model using MSE and R² score.
+9. Calculate parameters using the Normal Equation.
+10. Evaluate the Normal Equation model.
+11. Plot the cost convergence curve and regression line.
+12. Stop.
+
+Experiment 2: Linear and Polynomial Regression
+
+1. Start.
+2. Load the MPG dataset.
+3. Select engine displacement as input and MPG as target.
+4. Check and remove missing values.
+5. Split the dataset into training and testing sets.
+6. Train a Linear Regression model.
+7. Calculate MSE and R² score.
+8. Generate polynomial features for degrees 2 to 5.
+9. Train a Polynomial Regression model for each degree.
+10. Evaluate and compare the models using MSE and R² score.
+11. Plot regression curves and performance comparison graphs.
+12. Stop.
+
+Experiment 3: Logistic Regression using MLE and MAP
+
+1. Start.
+2. Load the Breast Cancer dataset.
+3. Separate input features and target labels.
+4. Split the dataset using stratified sampling.
+5. Standardize the input features.
+6. Train Logistic Regression models using MLE, MAP with L2 regularization and MAP with L1 regularization.
+7. Predict the output for the test data.
+8. Calculate accuracy, precision, recall, F1 score and confusion matrix.
+9. Compare the number of zero coefficients in each model.
+10. Plot performance comparison and ROC curves.
+11. Stop.
+
+Experiment 4: Multinomial and Bernoulli Naive Bayes
+
+1. Start.
+2. Load the 20 Newsgroups training and testing datasets.
+3. Remove headers, footers and quotations.
+4. Convert text documents into numerical features using CountVectorizer.
+5. Train the Multinomial Naive Bayes model.
+6. Convert text into binary features and train the Bernoulli Naive Bayes model.
+7. Predict the classes for test documents.
+8. Calculate accuracy, precision, recall and F1 score.
+9. Compare the performance of both models using a bar graph.
+10. Stop.
+
+Experiment 5: K-Nearest Neighbors using Fashion-MNIST
+
+1. Start.
+2. Load the Fashion-MNIST dataset.
+3. Select a subset of 12,000 images.
+4. Split the subset into training and testing data.
+5. Normalize pixel values by dividing them by 255.
+6. Train KNN models using K values 1, 3, 5, 7, 9 and 15.
+7. Measure prediction time and calculate accuracy for each model.
+8. Select the K value with the highest accuracy.
+9. Train the best KNN model and generate predictions.
+10. Display the classification report.
+11. Stop.
+
+Experiment 6: Customer Segmentation using ID3 Decision Tree
+
+1. Start.
+2. Load the Online Retail dataset.
+3. Remove records with missing CustomerID, cancelled invoices, invalid quantities and invalid prices.
+4. Calculate TotalAmount using Quantity × UnitPrice.
+5. Group the data by CustomerID and calculate customer-level features.
+6. Divide customers into Low Value, Medium Value and High Value segments using quantiles of TotalSpend.
+7. Select customer behaviour features as input and Segment as target.
+8. Split the dataset into training and testing sets.
+9. Train a Decision Tree classifier using entropy and maximum depth 4.
+10. Predict customer segments and calculate accuracy, classification report and confusion matrix.
+11. Calculate feature importance.
+12. Plot the decision tree and feature importance graph.
+13. Stop.
